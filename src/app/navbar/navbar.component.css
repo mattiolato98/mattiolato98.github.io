@@ -1,0 +1,67 @@
+#header-background {
+  background-size: cover;
+  opacity: 0.95;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  height: 500px;
+  width: 100% !important;
+}
+
+.biography {
+  background: url("src/assets/img/adventure.jpg") bottom fixed;
+}
+
+.projects {
+  background: url("src/assets/img/adventure.jpg") bottom fixed;
+}
+
+nav .logo-font {
+  font-size: 1.5rem !important;
+}
+
+.navbar-text {
+  font-size: 1.2rem;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-text:hover {
+  text-decoration: none;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  margin: 6px;
+  background-color: rgba(255,255,255,.5) !important;
+  transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.other-font {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .burger {
+    display: block !important;
+  }
+}

@@ -1,1 +1,140 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.header-font {
+  font-family: 'Archivo', sans-serif;
+  color: #303030;
+}
+
+/*body {*/
+/*  background-color: #303032;*/
+/*  color: #f2f2f2;*/
+/*}*/
+
+.logo-font {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 400;
+}
+
+.font-2 {
+  font-weight: 200;
+}
+
+.font-3 {
+  font-weight: 300;
+}
+
+.font-4 {
+  font-weight: 400;
+}
+
+.font-5 {
+  font-weight: 500;
+}
+
+.font-6 {
+  font-weight: 600;
+}
+
+.font-7 {
+  font-weight: 700;
+}
+
+.font-8 {
+  font-weight: 800;
+}
+
+.font-9 {
+  font-weight: 900;
+}
+
+.text-gray {
+  color: #adadad;
+}
+
+.img-small {
+  height: 50px;
+  width: auto;
+}
+
+.img-medium-horizontal {
+  height: auto;
+  width: 470px;
+}
+
+.img-medium-vertical {
+  height: 470px;
+  width: auto;
+}
+
+.mt-6 {
+  margin-top: 5rem;
+}
+
+.mt-7 {
+  margin-top: 8rem;
+}
+
+.text-gray {
+  color: #adadad;
+}
+
+.social-icon {
+  color: #adadad;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social-icon:hover {
+  color: #f2f2f2;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hr-bold {
+  width: 100px;
+  border-top: 3px solid #303030 ;
+}
+
+.flat-link {
+  color: #303030;
+  text-decoration: none !important;
+}
+
+.flat-link:hover {
+  color: #303030;
+}
+
+.box-link {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box-link:hover {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

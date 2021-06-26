@@ -1,0 +1,48 @@
+#navbar {
+  background: url("src/assets/img/jakob-owens-MctEgCk1Dm0-unsplash.jpg") bottom fixed;
+  background-size: cover;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  height: 100vh;
+  width: 100% !important;
+}
+
+nav .logo-font {
+  font-size: 4rem !important;
+}
+
+nav .navbar-collapse .nav-item {
+  font-size: 1.7rem;
+}
+
+.nav-item .navbar-text {
+  color: #e2e2e2;
+}
+
+.navbar-text {
+  color: #f2f2f2;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-text:hover {
+  text-decoration: none;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social-icon {
+  font-size: 350%;
+}
+
+@media (max-width: 991px) {
+  nav .logo-font {
+    font-size: 2rem !important;
+  }
+}
