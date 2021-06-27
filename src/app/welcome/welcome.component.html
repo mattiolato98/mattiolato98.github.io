@@ -1,7 +1,7 @@
 <nav id="navbar" class="navbar navbar-dark navbar-expand-lg py-1 d-flex flex-column justify-content-start">
   <div class="row mt-5">
     <div class="col">
-      <span class="navbar-brand navbar-text logo-font">Gabriele Mattioli</span>
+      <span class="navbar-brand navbar-text logo-font">Gabriele <br *ngIf="screenWidth < 991"> Mattioli</span>
     </div>
   </div>
   <div class="row mt-5">
@@ -25,7 +25,7 @@
       </ul>
     </div>
   </div>
-  <div class="row mt-auto mb-auto text-white">
+  <div class="row mt-auto mb-auto text-white d-none d-lg-block">
     <h4 class="text-gray">
       Benvenuto
     </h4>

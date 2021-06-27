@@ -21,6 +21,11 @@
   font-weight: 400;
 }
 
+.other-font {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+}
+
 .font-2 {
   font-weight: 200;
 }
