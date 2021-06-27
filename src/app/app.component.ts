@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontend-gm';
+  title = 'Gabriele Mattioli';
   public url: any;
 
   constructor(private router: Router) {
