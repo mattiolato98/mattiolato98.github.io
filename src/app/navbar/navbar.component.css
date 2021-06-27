@@ -57,4 +57,10 @@ nav .logo-font {
   .burger {
     display: block !important;
   }
+  .shadow, .shadow-lg, .shadow-sm {
+    box-shadow: none !important;
+  }
+  #header-background {
+    height: 400px;
+  }
 }
