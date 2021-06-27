@@ -16,11 +16,6 @@
   color: #303030;
 }
 
-/*body {*/
-/*  background-color: #303032;*/
-/*  color: #f2f2f2;*/
-/*}*/
-
 .logo-font {
   font-family: 'Major Mono Display', monospace;
   font-weight: 400;
@@ -103,6 +98,10 @@
 .hr-bold {
   width: 100px;
   border-top: 3px solid #303030 ;
+}
+
+.text-dark {
+  color: #303030;
 }
 
 .flat-link {
