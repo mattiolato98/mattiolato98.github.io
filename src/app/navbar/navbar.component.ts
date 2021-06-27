@@ -33,6 +33,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.setBurgerClicked();
   }
 
   setBurgerClicked(): void {
