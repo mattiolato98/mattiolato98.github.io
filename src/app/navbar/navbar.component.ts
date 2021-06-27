@@ -16,12 +16,4 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  setClasses(): object {
-    console.log(this.url);
-    return {
-      biography: this.url === '/biography',
-      projects: this.url === '/projects',
-    };
-  }
-
 }
