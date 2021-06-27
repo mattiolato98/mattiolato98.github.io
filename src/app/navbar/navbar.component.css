@@ -13,6 +13,10 @@ nav .logo-font {
   font-size: 1.5rem !important;
 }
 
+.nav-link {
+  color: #d9d9d9 !important;
+}
+
 .navbar-text {
   font-size: 1.2rem;
   -webkit-transition: 0.3s;
