@@ -1,5 +1,8 @@
 <nav id="header-background" class="navbar navbar-dark navbar-expand-lg p-2 font-5 d-flex align-items-start shadow">
-  <a routerLink="/" routerLinkActive="active" class="navbar-brand ml-3 logo-font font-7 cursor-pointer">Gabriele Mattioli</a>
+  <a routerLink="/" routerLinkActive="active" class="navbar-brand ml-3 font-7 cursor-pointer">
+    <span class="logo-font d-none d-md-block">Gabriele Mattioli</span>
+    <span class="logo-font d-md-none text-dark font-7">GM</span>
+  </a>
   <div class="burger mr-2" style="display: none" [ngClass]="setClasses()" (click)="toggleBurger()">
     <div class="line1"></div>
     <div class="line2"></div>
