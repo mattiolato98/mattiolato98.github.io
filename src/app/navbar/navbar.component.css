@@ -52,11 +52,6 @@ nav .logo-font {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.other-font {
-  font-family: 'MuseoModerno', cursive;
-  font-weight: 400;
-}
-
 @media (max-width: 991px) {
   .burger {
     display: block !important;
