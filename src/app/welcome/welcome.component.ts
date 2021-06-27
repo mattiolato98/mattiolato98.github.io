@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -9,10 +9,16 @@ import {faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 export class WelcomeComponent implements OnInit {
   instagramIcon = faInstagram;
   githubIcon = faGithub;
+  screenWidth;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.screenWidth = window.innerWidth;
   }
 
+  @HostListener('window:resize', ['$event'])
+  onResize(event?): void {
+    this.screenWidth = window.innerWidth;
+  }
 }
