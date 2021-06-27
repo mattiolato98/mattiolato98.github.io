@@ -67,14 +67,9 @@
   width: auto;
 }
 
-.img-medium-horizontal {
+.img-col {
   height: auto;
-  width: 470px;
-}
-
-.img-medium-vertical {
-  height: 470px;
-  width: auto;
+  width: 100%;
 }
 
 .mt-6 {
