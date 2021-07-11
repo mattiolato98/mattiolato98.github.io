@@ -1,11 +1,10 @@
-#header-background {
+#navbar {
   background: url("src/assets/img/sea.jpg") 50% 65%;
   background-size: cover;
-  opacity: 0.95;
+  opacity: 1  ;
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
-  height: 500px;
   width: 100% !important;
 }
 
@@ -38,7 +37,7 @@ nav .logo-font {
   width: 25px;
   height: 2px;
   margin: 6px;
-  background-color: rgba(255,255,255,.5) !important;
+  background-color: rgba(255,255,255,.7) !important;
   transition: all 0.3s ease;
 }
 
@@ -59,7 +58,17 @@ nav .logo-font {
   .shadow, .shadow-lg, .shadow-sm {
     box-shadow: none !important;
   }
-  #header-background {
-    height: 100px;
+  #navbar {
+    min-height: 100px;
+    align-items: center !important;
+  }
+  .nav-link {
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbar {
+    height: 500px;
   }
 }
