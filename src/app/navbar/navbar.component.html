@@ -1,7 +1,7 @@
-<nav id="header-background" class="navbar navbar-dark navbar-expand-lg p-2 font-5 d-flex align-items-start shadow">
+<nav id="navbar" class="navbar navbar-dark navbar-expand-lg p-2 font-5 d-flex align-items-start shadow">
   <a routerLink="/" routerLinkActive="active" class="navbar-brand ml-3 font-7 cursor-pointer">
     <span class="logo-font d-none d-md-block font-9">Gabriele Mattioli</span>
-    <span class="logo-font d-md-none text-dark font-9">GM</span>
+    <span class="logo-font d-md-none font-9">GM</span>
   </a>
   <div class="burger mr-2 p-2" style="display: none" [ngClass]="setClasses()" (click)="toggleBurger()">
     <div class="line1"></div>
@@ -9,7 +9,7 @@
     <div class="line3"></div>
   </div>
 
-  <div @collapse class="navbar-collapse" *ngIf="burgerClicked">
+  <div @collapse class="navbar-collapse d-flex justify-content-center" *ngIf="burgerClicked">
     <ul class="navbar-nav d-flex align-items-center justify-content-end ml-lg-auto w-50">
       <li class="nav-item active mx-3">
         <a routerLink="/biography" routerLinkActive="active" class="nav-link navbar-text other-font cursor-pointer">
