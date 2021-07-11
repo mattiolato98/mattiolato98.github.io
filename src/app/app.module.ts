@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -22,11 +24,12 @@ import { ProjectsComponent } from './projects/projects.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
     FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent, NavbarComponent, BiographyComponent]
+  bootstrap: [AppComponent, NavbarComponent, BiographyComponent, WelcomeComponent, FooterComponent, ProjectsComponent]
 })
 export class AppModule { }
