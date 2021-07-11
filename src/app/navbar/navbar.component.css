@@ -1,5 +1,5 @@
 #header-background {
-  background: url("src/assets/img/adventure.jpg") bottom fixed;
+  background: url("src/assets/img/sea.jpg") 50% 65%;
   background-size: cover;
   opacity: 0.95;
   margin-top: 0;
@@ -60,6 +60,6 @@ nav .logo-font {
     box-shadow: none !important;
   }
   #header-background {
-    height: 400px;
+    height: 100px;
   }
 }
