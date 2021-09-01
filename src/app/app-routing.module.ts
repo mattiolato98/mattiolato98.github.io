@@ -5,9 +5,9 @@ import { BiographyComponent } from './biography/biography.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  { path: '', component: WelcomeComponent },
   { path: 'biography', component: BiographyComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: '',   redirectTo: '/biography', pathMatch: 'full' },
 ];
 
 @NgModule({
