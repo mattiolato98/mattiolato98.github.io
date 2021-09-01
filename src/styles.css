@@ -8,6 +8,7 @@
 
 * {
   font-family: 'Montserrat', sans-serif;
+  color: #56595c;
   font-weight: 400;
 }
 
@@ -110,7 +111,7 @@
 
 .hr-bold {
   width: 100px;
-  border-top: 3px solid #303030 ;
+  border-top: 3px solid #303030;
 }
 
 .text-dark {
