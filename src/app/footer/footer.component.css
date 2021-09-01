@@ -1,10 +1,7 @@
 #footer {
   background-color: #1c1c1c;
-  height: 80px;
+  flex-basis: 80px;
   width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
 
 .social-icon {
