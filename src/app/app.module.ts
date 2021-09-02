@@ -4,6 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FormsModule } from '@angular/forms';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -29,7 +31,7 @@ import { ProjectsComponent } from './projects/projects.component';
     FormsModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent, NavbarComponent, BiographyComponent, WelcomeComponent, FooterComponent, ProjectsComponent]
 })
 export class AppModule { }
