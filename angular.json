@@ -28,7 +28,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "node_modules/iubenda/iubenda.js"
+              "src/js/iubenda.js"
             ]
           },
           "configurations": {
