@@ -15,8 +15,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 
-import { CloudinaryModule, CloudinaryConfiguration } from '@cloudinary/angular-5.x';
-import { Cloudinary } from 'cloudinary-core';
+import { CloudinaryModule } from '@cloudinary/angular-5.x';
+import * as  Cloudinary from 'cloudinary-core';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { Cloudinary } from 'cloudinary-core';
     AppRoutingModule,
     FormsModule,
     FontAwesomeModule,
-    CloudinaryModule.forRoot(Cloudinary, { cloud_name: 'dabncrgkl'} as CloudinaryConfiguration),
+    CloudinaryModule.forRoot(Cloudinary, { cloud_name: 'dabncrgkl'}),
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent, NavbarComponent, BiographyComponent, WelcomeComponent, FooterComponent, ProjectsComponent]
