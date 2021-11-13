@@ -1,32 +1,38 @@
-<nav id="navbar" class="navbar navbar-dark navbar-expand-lg p-2 font-5 d-flex align-items-start shadow">
-  <a routerLink="/" routerLinkActive="active" class="navbar-brand ml-3 font-7 cursor-pointer">
-    <span class="logo-font d-none d-md-block font-9 text-white">Gabriele Mattioli</span>
-    <span class="logo-font d-md-none font-9 text-white">GM</span>
-  </a>
-  <div class="burger mr-2 p-2" style="display: none" [ngClass]="setClasses()" (click)="toggleBurger()">
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
+<nav id="navbar" class="navbar p-2 font-5 d-flex flex-column">
+  <div class="row w-100">
+    <div class="col d-flex justify-content-end">
+      <div class="burger mr-2 p-2" style="display: none" [ngClass]="setClasses()" (click)="toggleBurger()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
   </div>
-
-  <div @collapse class="navbar-collapse d-flex justify-content-center" *ngIf="burgerClicked">
-    <ul class="navbar-nav d-flex align-items-center justify-content-end ml-lg-auto w-50">
-      <li class="nav-item active mx-3">
-        <a routerLink="/biography" routerLinkActive="active" class="nav-link navbar-text other-font cursor-pointer">
-          Biografia
-        </a>
-      </li>
-      <li class="nav-item active mx-3">
-        <a routerLink="/projects" routerLinkActive="active" class="nav-link navbar-text other-font cursor-pointer">
-          Progetti
-        </a>
-      </li>
-      <li class="nav-item active mx-3">
-        <a routerLink="/signing" routerLinkActive="active" class="nav-link navbar-text other-font cursor-pointer">
-          Blog
-        </a>
-      </li>
-    </ul>
-
+  <div class="row h-100 align-items-center">
+    <div class="col-auto d-flex justify-content-center flex-column manrope-font">
+      <h1 id="hi-there" class="font-5 text-white">Ciao 👋, sono</h1>
+      <h1 class="display-1 text-white-50 font-8">Gabriele Mattioli</h1>
+    </div>
   </div>
 </nav>
+<div id="navbar-items-box" class="row justify-content-center mt-3 mb-5 p-0 mx-0">
+  <div @collapse class="col-auto p-2" style="background-color: #333333; border-radius: 15px" *ngIf="burgerClicked">
+    <div class="row">
+      <div class="col">
+        <a routerLink="/biography" routerLinkActive="active" class="nav-link navbar-text poppins-font cursor-pointer py-0">
+          Biografia
+        </a>
+      </div>
+      <div class="col">
+        <a routerLink="/projects" routerLinkActive="active" class="nav-link navbar-text poppins-font cursor-pointer py-0">
+          Progetti
+        </a>
+      </div>
+      <div class="col">
+        <a routerLink="/signing" routerLinkActive="active" class="nav-link navbar-text poppins-font cursor-pointer py-0">
+          Blog
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
