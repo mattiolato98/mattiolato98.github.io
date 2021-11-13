@@ -8,8 +8,20 @@
   font-size: 250%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+  span {
+    font-size: 0.8rem;
+  }
   .social-icon {
-    font-size: 150%;
+    font-size: 1.5rem;
+  }
+  .col-12 {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.5rem !important;
+  }
+  #privacy-policy-col {
+    margin-top: 1.5rem;
   }
 }
